@@ -5,4 +5,81 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  background-color: #141414;
+}
+
+.social-content-box {
+  background-color: #1f1f1f;
+  max-width: 385px;
+  height: 611px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 4rem auto;
+}
+
+.author-img img {
+  height: 88px;
+  width: 88px;
+  border-radius: 99%;
+  margin-bottom: 24px;
+}
+
+.author-name {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.author-location {
+  color: #c4f82a;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.about-author-text {
+  color: white;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #333333;
+  border-radius: 8px;
+  height: 45px;
+  width: 304px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+  background-color: #c4f82a;
+}
+
+.Instagram {
+  margin: 0;
 }
