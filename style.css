@@ -34,6 +34,7 @@ body {
   width: 88px;
   border-radius: 99%;
   margin-bottom: 24px;
+  object-fit: fill;
 }
 
 .author-name {
@@ -50,6 +51,7 @@ body {
   line-height: 150%;
   font-weight: bold;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .about-author-text {
